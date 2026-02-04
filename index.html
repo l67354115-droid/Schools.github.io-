@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catch Game</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Catch the Apples</h1>
+    <p>Move the basket with ◀ ▶ or touch and drag. Catch falling apples to score points.</p>
+  </header>
+
+  <main>
+    <div class="hud">
+      <div id="score">Score: 0</div>
+      <div id="lives">Lives: 3</div>
+    </div>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <div class="controls">
+      <button id="restartBtn">Restart</button>
+    </div>
+  </main>
+
+  <footer>
+    <small>Built for l67354115-droid/Schools.github.io-</small>
+  </footer>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
